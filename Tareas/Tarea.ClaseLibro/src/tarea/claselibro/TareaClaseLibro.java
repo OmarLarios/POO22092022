@@ -4,6 +4,8 @@
  */
 package tarea.claselibro;
 
+
+
 /**
  *
  * @author omarl
@@ -15,6 +17,13 @@ public class TareaClaseLibro {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-    }
     
+        Libro libro1=new Libro();
+        libro1.setTitulo("Troya");
+        System.out.println("Título: " + libro1.getTitulo());
+        
+            
+       
+    }
+  
 }

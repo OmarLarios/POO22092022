@@ -1,3 +1,5 @@
+package tarea.claselibro;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -67,10 +69,10 @@ public class Libro {
     }
 
     public void aventar(){
-        System.out.println("El libro " + this.titulo + " lo aventaron");
+        System.out.println("Aventando el libro " + this.titulo );
     }
     
-    public void contar(String paginas){
-        System.out.println("El libro tiene " + this.numPaginas + paginas);
+    public void leer(String paginas){
+        System.out.println("Leyendo el libro de " + this.numPaginas + " paginas");
     }
 }
