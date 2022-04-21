@@ -26,7 +26,9 @@ public class Automovil {
         this.modelo = modelo;
         this.color = color;
     }
-
+    public Automovil(String m, Color c){
+        
+    }
     public Color getColor() {
         return color;
     }

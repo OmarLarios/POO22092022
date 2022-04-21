@@ -3,7 +3,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package conceptosbásicos;
+import ico.fes.Alumno;
 import ico.fes.Automovil;
+import ico.fes.Persona;
 import ico.fes.silla;
 import java.awt.Color;
 
@@ -34,4 +36,15 @@ public class ConceptosBásicos {
         System.out.println(miMustang);
         Automovil miAkura=new Automovil("Akura","N3X",2013, Color.GRAY);
         System.out.println(miAkura);
-    }}
+        
+        Persona per1=new Persona();
+       // per1.edad=200000; no se permite por seguridad
+       per1.setEdad(25);
+        System.out.println(per1);
+        
+        Alumno al = new Alumno();
+        al.setNombre("José");
+        al.setNumeroCuenta("31912800-2");
+        System.out.println(al);
+    }
+}
