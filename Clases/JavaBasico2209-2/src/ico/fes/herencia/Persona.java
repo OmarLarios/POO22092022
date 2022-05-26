@@ -38,7 +38,7 @@ public class Persona {
 
     @Override
     public String toString() {
-        return "Persona{" + "nombre=" + nombre + ", edad=" + edad + '}';
+        return   nombre + ", edad=" + edad ;
     }
     public void comer(){
         System.out.println(this.nombre+" está comiendo...");
